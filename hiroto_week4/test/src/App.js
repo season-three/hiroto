@@ -1,14 +1,14 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Blog from "./Blog";
+import Top from "./Top";
 import Article from "./Article";
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Blog />
+        <Top />
       </div>
     );
   }

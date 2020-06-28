@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Blog from "./Blog";
+import Blog from "./Top";
 import LikeButton from "./LikeButton";
 
 const Article = (props) => {

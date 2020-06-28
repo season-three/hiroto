@@ -1,24 +1,35 @@
 import React from "react";
-import Article from "./Article";
-import { render } from "@testing-library/react";
-import { Foo, Ber } from "./components/FooBar";
-import Hoge from "./components/Hoge";
+import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer";
+// import Article from "./Article";
+// import { render } from "@testing-library/react";
+// import { Foo, Ber } from "./components/FooBar";
+// import Hoge from "./components/Hoge";
+// import Test from "./Test";
 
-import * as FooBer from "./components/FooBar";
+// import * as FooBer from "./components/FooBar";
 
-const Blog = () => {
+const Top = () => {
   return (
     <>
-      <Article title="React" />
+      <div className="top">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+
+      {/* <Article title="React" />
       <Foo />
       <Ber />
       <Hoge />
       <FooBer.Foo />
+      <Test /> */}
     </>
   );
 };
 
-export default Blog;
+export default Top;
 
 // class Blog extends React.Component {
 //   constructor(props) {
